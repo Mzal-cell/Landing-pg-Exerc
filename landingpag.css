@@ -1,0 +1,77 @@
+ /* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #072a58; 
+    color: white;
+}
+
+/* Header Styling */
+header {
+    background-color: #051f46;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 3px solid #15a144;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover over nav tags */
+nav a:hover {
+    background-color: #5783bd;
+    border-radius: 10px;
+    border: 3px solid rgb(15, 202, 87);
+}
+
+/* Body/Section Styling */
+section {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hover tag over section tags */
+section:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.02);
+    border: 2px solid #0db329;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0a2d5e;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: hsl(45, 81%, 34%);
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
